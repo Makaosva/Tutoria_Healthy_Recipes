@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import Home from "./views/Home";
 import Contact from "./views/Contact";
 import NotFound from "./views/NotFound";
+import Recipies from "./views/Recipies";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contacto" element={<Contact />} />
+          <Route path="/recetas/:id" element={<Recipies />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

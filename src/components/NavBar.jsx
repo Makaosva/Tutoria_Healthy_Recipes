@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <Navbar bg="primary" expand="lg">
-      <Navbar.Brand>Healty Recepies</Navbar.Brand>
+      <Navbar.Brand>Healthy Recepies</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
